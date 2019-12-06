@@ -134,6 +134,7 @@ button{
     background-position: center;
     min-height: 730px;
     opacity: 0.8;
+    margin-bottom: 185px;
 }
 .search__inner{
     padding: 180px 0px 5px;
@@ -273,18 +274,57 @@ button{
 
 }
 
+.advantage__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+    text-align: center;
+    .advantage__research,
+    .advantage__responsive,
+    .advantage__easily{
+        max-width: 370px;
+        width: 100%;
+        min-height: 400px;
+        padding: 40px 35px 50px;
+        &.responsive{
+            border-radius: 4px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+        }
+    }
+    .advantage__images{
+        margin-bottom: 40px;
+        img{
+            width: 113px;
+            height: 112px;
+        }
+    }
+    .advantage__title{
+        font-weight: 400;
+        font-size: 24px;
+        color: #000;
+        margin-bottom: 30px;
 
-.Rectangle_238_copy_2 {
-    border-radius: 6px;
-   
-    opacity: 0.502;
+    }
+    .advantage__text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #555555;
+    }
+}
+  
+
+.BG {
+    
     position: absolute;
-    left: 420px;
-    top: 810px;
-    width: 1080px;
-    height: 135px;
-    z-index: 729;
+    left: 780px;
+    top: 1091px;
+    width: 361px;
+    height: 403px;
+    z-index: 692;
   }
+  
   
   
 
